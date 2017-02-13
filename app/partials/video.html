@@ -1,0 +1,28 @@
+<div id="searchBox">
+    <input ng-model='vm.searchJoke' />
+    <br>
+    <button class="btn" ng-click='vm.jokeSearch(vm.searchJoke)'>search</button>
+    <div>
+        <div><span>{{vm.jokeResponse}}</span></div>
+    </div>
+</div>
+<div id="videoBox">
+    <a ui-sref="video">video</a>
+</div>
+<!-- -->
+<!-- -->
+<!-- -->
+<div id="searchButton">
+    <a ng-click="vm.videoSearch('chuck norris')"><img src="https://rocketdock.com/images/screenshots/chuck-norris.png"></a>
+    <span>
+        Get Chucked!
+    </span>
+</div>
+<div id="videoData">
+    <div ng-repeat="data in vm.videoResponse.items">
+        <iframe class="video" width="900" height="585" ng-src="{{vm.getIframeSrc(data.id.videoId) | trustThisUrl}}" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<br>
+<br>
+<div ui-view></div>

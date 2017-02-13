@@ -1,0 +1,114 @@
+body {
+    background-image: url("https://lolclt.files.wordpress.com/2016/05/lolclt-open-mic-pic.jpg?w=1200");
+    background-repeat: repeat-y;
+    background-size: cover;
+    z-index: 20;
+}
+
+#Home {
+    background-image: url("http://vignette4.wikia.nocookie.net/peggle/images/b/b3/3_Stars.png/revision/latest?cb=20150301035606");
+    z-index: 100;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 300px;
+    background-size: 90%;
+    position: absolute;
+    background-position: center;
+    left: 400px;
+}
+
+#Home img {
+    width: 20%;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+#searchLink {
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    color: white;
+    font-size: 2.5em;
+    z-index: 200;
+}
+
+#searchBox input {
+    width: 110px;
+    margin-top: 80px;
+    margin-left: 5px;
+    border-radius: 2px;
+}
+
+#searchBox button {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 2em;
+    color: #fff;
+    background-color: rgba(254, 93, 14, 0.81);
+}
+
+#searchBox {
+    background-image: url("https://lh6.ggpht.com/d4Lc5UY-JRrgIRwqv_M1RJM4FrNuVLVeZhlYYppX-rjEmIOV_Ht7Nq8mV9t29JbiYA=w300");
+    background-repeat: no-repeat;
+    background-size: 55%;
+    position: absolute;
+    left: 240px;
+    top: 60px;
+    width: 220px;
+    height: 170px;
+}
+
+#videoBox {
+    position: absolute;
+    background-image: url("http://icons.iconarchive.com/icons/thiago-silva/palm/256/Videos-icon.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    width: 150px;
+    height: 200px;
+    top: 100px;
+    left: 410px;
+}
+
+#videoBox a {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+#searchButton {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 340px;
+    margin-left: 220px;
+}
+
+#searchButton img {
+    position: absolute;
+    margin-top: 50px;
+    width: 250px;
+    margin-left: -70px;
+}
+
+#searchButton img:hover {
+    width: 300px;
+}
+
+#videoData {
+    margin-top: 300px;
+    margin-left: -150px;
+}
+
+#joke {
+    position: absolute;
+    width: 900px;
+    padding: 10px;
+    font-size: 3em;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: -400px;
+    border-radius: 15px;
+}
